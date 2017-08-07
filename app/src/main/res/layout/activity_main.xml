@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -16,7 +16,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Good and Proper Tea"
+        android:text="@string/shop_name"
         android:textSize="34sp"
         android:textColor="@android:color/black"/>
 
@@ -24,22 +24,22 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:text="Address"/>
+        android:text="@string/address"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="94 Leather Lane, London"/>
+        android:text="@string/shop_address"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:text="Opening Hours"/>
+        android:text="@string/opening_hours"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="9am - 6pm"/>
+        android:text="@string/shop_opening_hours"/>
 
 </LinearLayout>
