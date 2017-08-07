@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TeaShop</string>
+    <string name="shop_name">Good and Proper Tea</string>
+    <string name="address">Address</string>
+    <string name="shop_address">94 Leather Lane, London</string>
+    <string name="opening_hours">Opening Hours</string>
+    <string name="shop_opening_hours">9am - 6pm</string>
 </resources>
